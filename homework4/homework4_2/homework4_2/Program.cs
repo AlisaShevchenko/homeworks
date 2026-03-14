@@ -42,5 +42,6 @@ switch (sign)
     default:
         Console.WriteLine("You entered an incorrect sign");
         break;
-}
+} 
+
 
