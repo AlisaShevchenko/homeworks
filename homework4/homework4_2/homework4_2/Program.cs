@@ -13,7 +13,7 @@ Console.Write("Enter a second number: ");
 int number2;
 while (!int.TryParse(Console.ReadLine(), out number2))
 {
-    Console.WriteLine("Enter a second number: ");
+    Console.WriteLine("Enter correct number: ");
 }
 Console.Write("Enter the sign of the mathematical operation: + - * or /: ");
 string sign = Console.ReadLine();
