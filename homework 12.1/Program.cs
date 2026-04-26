@@ -97,7 +97,7 @@ class Program
         {
             if (int.TryParse(Console.ReadLine(), out userNumber) && userNumber >= 1 && userNumber <= MyTask.Count)
             {
-                return userNumber; // Повертаємо коректне число
+                return userNumber;
             }
             Console.WriteLine($"Помилка: будь ласка, введіть число від 1 до {MyTask.Count}.");
         }
